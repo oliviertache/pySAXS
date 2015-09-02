@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>pySAXS by oliviertache</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>pySAXS</h1>
+        <p>pySAXS an open source python package for Small Angle X-Ray Scattering (SAXS) data treatment</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/oliviertache/pySAXS" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/oliviertache/pySAXS/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/oliviertache/pySAXS/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h3>
+<a id="welcome-to-pysaxs-pages" class="anchor" href="#welcome-to-pysaxs-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to pySAXS Pages.</h3>
+
+<p>We develop a series of modules entirely written in Python language grouped under the name pySAXS (Python for SAXS), allowing to process the different operations for the SAXS data treatment. pySAXS is open source and based on Numpy and SciPy libraries.
+Initially designed for the three homemade LIONS SAXS experiments (USAXS[1], SAXS[2], WAXS), the package is completely independent from experimental details. </p>
+
+<h3>
+<a id="libraries" class="anchor" href="#libraries" aria-hidden="true"><span class="octicon octicon-link"></span></a>libraries</h3>
+
+<p>pySAXS contains libraries with basic functions for manipulating  data (merge, subtract, add,…), setting in absolute scale, processing a deconvolution. Uncertainties are carefully propagated at each step of data manipulation. pySAXS also offer the possibility to easily add user defined modules for computing form and structure factors. Researchers write their own models by simply describing the different parameters and the source code. pySAXS already contain numerous rigorous tested and optimized modules for classical shapes and interactions. Fundamental theorems are also available like Guinier, Porod and invariant computation. </p>
+
+<h3>
+<a id="modular" class="anchor" href="#modular" aria-hidden="true"><span class="octicon octicon-link"></span></a>modular</h3>
+
+<p>We also added some plugins for using external libraries like xraylib<a href="absorption%20calculation%20for%20compounds%20at%20different%20energies">3</a> and pyFAI<a href="a%20fast%20radial%20averaging%20of%202D%20detectors%20images">4</a>.
+A graphic user interface (Figure 1) is proposed for manipulating the data and plot them simultaneously with different type of scales (lin-lin, log-log, or even i.qn scale) and a publication-ready display. A generic dialog box is shown when the user want to fit data with a given model. It allows to modify the parameters and proposes the fitting functions.
+New functionalities offer to process the complete SAXS data treatment on-line.</p>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/oliviertache">oliviertache</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>

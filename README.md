@@ -12,5 +12,5 @@ pip install pySAXS
 ### How to upgrade pySAXS ? ###
 you can download the source code on GitHub, or simply tape this command :
 
-pip upgrade pySAXS
+pip install --upgrade pySAXS
 

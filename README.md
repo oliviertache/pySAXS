@@ -14,3 +14,6 @@ you can download the source code on GitHub, or simply tape this command :
 
 pip install --upgrade pySAXS
 
+###How to use ? ###
+We recommand you to take an eye on the example directory where you can fin a lot of usefull samples.
+

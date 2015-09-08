@@ -17,3 +17,8 @@ pip install --upgrade pySAXS
 ###How to use ? ###
 We recommand you to take an eye on the example directory where you can fin a lot of usefull samples.
 
+###Where to find guiSAXS the graphic interface ?###
+The guiSAXS launcher is on the pySAXS installation directory (python/lib/site-packages/pySAXS on windows).
+click on startGuiSAXS.py 
+
+

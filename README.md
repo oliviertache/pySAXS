@@ -3,6 +3,7 @@ pySAXS an open source python package for Small Angle X-Ray Scattering (SAXS) dat
 
 see Wiki for more informations.
 We recommand to use winpython 64 bits on Windows computers
+You can find some videos on https://www.youtube.com/channel/UCbbWrEgcakbwkSFJ0KZavUQ
 
 ### How to install pySAXS  ? ###
 you can download the source code on GitHub, or simply tape this command :
